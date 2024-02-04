@@ -19,6 +19,6 @@ jobs:
         distribution: 'adopt'
         java-version: '11'
 
-    - name: Build with Maven
+    - name: Unit Test
       run: |
-        mvn -f pom.xml test
+        mvn test
