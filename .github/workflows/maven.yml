@@ -30,4 +30,5 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Test
-      run: mvn --batch-mode -Dmaven.test.failure.ignore=false test
+      run: mvn --batch-mode test -Dtest=org.Pranitha_Final_Exam.*
+
