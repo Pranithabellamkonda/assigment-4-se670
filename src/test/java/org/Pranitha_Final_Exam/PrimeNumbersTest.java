@@ -112,7 +112,7 @@ class PrimeNumbersTest {
         }
 
         String primesAsString = primeNumbers.toString();
-        assertTrue(primesAsString.contains("9"));
+        assertFalse(primesAsString.contains("9"));
     }
 
 }
