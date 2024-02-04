@@ -21,5 +21,4 @@ jobs:
 
     - name: Build with Maven
       run: |
-        cd assignment
-        mvn test
+        mvn -f pom.xml test
