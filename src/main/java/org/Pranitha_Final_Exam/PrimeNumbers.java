@@ -18,7 +18,7 @@ public class PrimeNumbers implements Iterable<Integer> {
                     break; // for loop
                 }
             }
-            if (isPrime) {  //removing intentional fault
+            if (isPrime && (number % 10 != 9)) {  //including intentional fault
                 primes.add(number);
                 count++;
             }

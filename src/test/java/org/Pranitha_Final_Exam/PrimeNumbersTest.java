@@ -12,7 +12,6 @@ class PrimeNumbersTest {
         while (iterator.hasNext()) {
             Integer prime = iterator.next();
             assertNotNull(prime);
-            assertFalse(prime.toString().endsWith("9"));
         }
         String primesAsString = primeNumbers.toString();
         assertEquals("[2, 3, 5, 7, 11]", primesAsString);
@@ -26,7 +25,6 @@ class PrimeNumbersTest {
         while (iterator.hasNext()) {
             Integer prime = iterator.next();
             assertNotNull(prime);
-            assertFalse(prime.toString().endsWith("9"));
         }
         String primesAsString = primeNumbers.toString();
         assertEquals("[2, 3, 5, 7, 11, 13, 17, 19, 23, 29]", primesAsString);
